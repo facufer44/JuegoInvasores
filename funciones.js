@@ -4,7 +4,7 @@ window.onload = function () {
 		ctx = canvas.getContext("2d");
 		if (ctx) {
 			x = canvas.width / 2;
-			mensaje("INVASORES");
+			mensaje("INVADERS");
 			imgNave = new Image();
 			imgOvni = new Image();
 			imgOvni.src = "imagenes/ovni.png";
